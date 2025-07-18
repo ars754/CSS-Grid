@@ -1,0 +1,31 @@
+body {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blueviolet;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  gap: 0;
+  width: 480px;
+  margin: 0 auto;
+  border: 2px solid #000;
+}
+.white {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+}
+.black {
+  background-color: black;
+  width: 60px;
+  height: 60px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CSS Grid vs Flexbox</title>
+  <link rel="stylesheet" href="CSS Grid vs Flexbox.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/3paNdF+e4z5l5a5b5d5b5d5b5d5b5d" crossorigin="anonymous" />
+</head>
+<body>
+  <h1>CSS-Grid vs Flexbox</h1><hr/>
+  <p>1. CSS Grid and Flexbox are both powerful layout systems in CSS, each with its own strengths and use cases.<br/>
+     2. CSS Grid is designed for two-dimensional layouts, allowing you to create complex grid structures with rows and columns.<br/> 
+     3. It provides precise control over the placement of items within the grid, making it ideal for layouts that require both horizontal and vertical alignment.
+  </p><hr/>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>CSS Grid</th>
+          <th>Flexbox</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Layout Type</td>
+          <td>2D (Rows + Columns)</td>
+          <td>1D (Row or Column)</td>
+        </tr>
+        <tr>
+          <td>Best for</td>
+          <td>Whole-page layouts, grid-based designs</td>
+          <td>Aligning items in a single row or column</td>
+        </tr>
+        <tr>
+          <td>Direction Control</td>
+          <td>Both row and column control</td>
+          <td>One main axis</td>
+        </tr>
+        <tr>
+          <td>Placement</td>
+          <td>Explicit placement with grid lines</td>
+          <td>Flow-based; item order matters</td>
+        </tr>
+        <tr>
+          <td>Gaps</td>
+          <td>grid-gap, row-gap, column-gap</td>
+          <td>gap works, mostly horizontal</td>
+        </tr>
+        <tr>
+          <td>Overlapping</td>
+          <td>Supported</td>
+          <td>Not supported</td>
+        </tr>
+        <tr>
+          <td>Complexity</td>
+          <td>More powerful, more verbose</td>
+          <td>Simpler, faster for small layouts</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><hr/>
+  <h2>CSS-Grid</h2>
+    <div class="grid-container">
+    <div class="grid-item">We've</div>
+    <div class="grid-item">Known</div>
+    <div class="grid-item">Each</div>
+    <div class="grid-item">Other</div>
+    <div class="grid-item">For</div>
+    <div class="grid-item">So</div>
+    <div class="grid-item">Long</div>
+  </div><hr/>
+  <h2>Flexbox</h2>
+    <div class="flex-container">
+    <div class="flex-item">We</div>
+    <div class="flex-item">Both</div>
+    <div class="flex-item">Know</div>
+    <div class="flex-item">What</div>
+    <div class="flex-item">Has</div>
+    <div class="flex-item">Been</div>
+    <div class="flex-item">Going</div>
+    <div class="flex-item">On</div>
+    </div><hr/>
+  <script src="CSS Grid vs Flexbox.js"></script>
+</body>
+</html>

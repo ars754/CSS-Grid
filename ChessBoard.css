@@ -1,0 +1,27 @@
+body{
+    background-color: greenyellow;
+  }
+  h1{
+    font-family: 'Times', cursive;
+    text-align: Left;
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .container {
+    border: 10px solid blueviolet;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+  }
+  .white {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+  }
+  .black {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+  }

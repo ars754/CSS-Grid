@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple demonstration of CSS Grid Sizing techniques.">
+    <meta name="keywords" content="CSS, Grid, Sizing, Fixed Size, Auto Size, Fractional Size, MinMax Size, Repeat.">
+    <meta name="author" content="Arsalan Ahmad">
+    <!-- IGNORE: The author meta tag is not necessary for the functionality of the page, but it can be useful for documentation purposes. -->
+    <title>Auto Size Grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-rows: 100px auto;
+        grid-template-columns: 200px auto;
+      }
+      .grid-item {
+        font-size: 3rem;
+        background-color: darkviolet;
+        border: 5px solid goldenrod;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Auto Size Grid</h1>
+      <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+    </div>
+  </body>
+</html>
